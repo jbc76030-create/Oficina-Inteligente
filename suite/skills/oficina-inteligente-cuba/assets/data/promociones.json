@@ -665,5 +665,180 @@
       7,
       13
     ]
+  },
+  {
+    "id": 32,
+    "slug": "Reuniones-y-decisiones",
+    "label": "REUNIONES Y DECISIONES",
+    "headline": "Una decisión sin seguimiento se pierde.",
+    "body": "Prepara agendas y documentos. Organiza tareas, responsables y plazos.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      3,
+      4,
+      18,
+      22
+    ],
+    "image": "promociones/32-Reuniones-y-decisiones.jpg",
+    "areas": [
+      1,
+      27
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "Transferencia-de-conocimiento",
+    "label": "TRANSFERENCIA DE CONOCIMIENTO",
+    "headline": "¿Tu experiencia se pierde cuando alguien se va?",
+    "body": "Ordena métodos y conocimientos. Prepara guías y capacitación para tu equipo.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      28
+    ],
+    "image": "promociones/33-Transferencia-de-conocimiento.jpg",
+    "areas": [
+      3
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "Variaciones-y-financiamiento",
+    "label": "VARIACIONES Y FINANCIAMIENTO",
+    "headline": "Antes de pedir financiamiento, entiende tus cifras.",
+    "body": "Analiza desviaciones y prepara el expediente de tu proyecto.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      41,
+      56
+    ],
+    "image": "promociones/34-Variaciones-y-financiamiento.jpg",
+    "areas": [
+      11,
+      12
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "Investigacion-de-operaciones",
+    "label": "INVESTIGACIÓN DE OPERACIONES",
+    "headline": "Cada diferencia necesita una explicación.",
+    "body": "Reconstruye movimientos y organiza la evidencia de cada operación.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      49
+    ],
+    "image": "promociones/35-Investigacion-de-operaciones.jpg",
+    "areas": [
+      12
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "Riesgo-fiscal",
+    "label": "RIESGO FISCAL",
+    "headline": "Un riesgo fiscal a tiempo se puede gestionar.",
+    "body": "Organiza obligaciones, evidencia y un plan preventivo.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      62
+    ],
+    "image": "promociones/36-Riesgo-fiscal.jpg",
+    "areas": [
+      13
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "Respuestas-y-expedientes",
+    "label": "RESPUESTAS Y EXPEDIENTES",
+    "headline": "Responder bien empieza con un expediente claro.",
+    "body": "Prepara borradores, anexos y evidencias para revisión competente.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      67,
+      68,
+      86
+    ],
+    "image": "promociones/37-Respuestas-y-expedientes.jpg",
+    "areas": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "Controles-e-incidentes",
+    "label": "CONTROLES E INCIDENTES",
+    "headline": "Una señal ignorada puede crecer.",
+    "body": "Documenta controles, incidentes y acciones correctivas.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      74,
+      77
+    ],
+    "image": "promociones/38-Controles-e-incidentes.jpg",
+    "areas": [
+      4,
+      15
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "Continuidad-y-alertas",
+    "label": "CONTINUIDAD Y ALERTAS",
+    "headline": "¿Tu empresa sabe qué hacer ante una interrupción?",
+    "body": "Diseña continuidad, alertas tempranas y reportes de riesgos.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      78,
+      79,
+      80
+    ],
+    "image": "promociones/39-Continuidad-y-alertas.jpg",
+    "areas": [
+      15
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "Contenidos-multimedia",
+    "label": "CONTENIDOS MULTIMEDIA",
+    "headline": "Tu equipo necesita entender, no solo recibir archivos.",
+    "body": "Prepara video, audio y boletines internos con información útil.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      124,
+      125,
+      126
+    ],
+    "image": "promociones/40-Contenidos-multimedia.jpg",
+    "areas": [
+      22
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "Puesta-en-marcha-empresarial",
+    "label": "PUESTA EN MARCHA EMPRESARIAL",
+    "headline": "Crear un actor económico es solo el comienzo.",
+    "body": "Organiza estructura, procesos, presupuesto y controles desde el inicio.",
+    "benefit": "Organiza el trabajo con evidencias y seguimiento.",
+    "cta": "SOLICITA TU SERVICIO",
+    "sources": [
+      144
+    ],
+    "image": "promociones/41-Puesta-en-marcha-empresarial.jpg",
+    "areas": [
+      26
+    ]
   }
 ]

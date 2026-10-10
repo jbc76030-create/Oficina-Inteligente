@@ -12,7 +12,8 @@
     "promotions": [
       5,
       26,
-      31
+      31,
+      32
     ]
   },
   {
@@ -44,7 +45,8 @@
     "promotions": [
       5,
       27,
-      30
+      30,
+      33
     ]
   },
   {
@@ -59,7 +61,9 @@
     "engine": "riesgos",
     "promotions": [
       4,
-      12
+      12,
+      37,
+      38
     ]
   },
   {
@@ -105,7 +109,8 @@
     "engine": "contrato",
     "promotions": [
       15,
-      31
+      31,
+      37
     ]
   },
   {
@@ -167,7 +172,8 @@
     "engine": "proyecto",
     "promotions": [
       6,
-      23
+      23,
+      34
     ]
   },
   {
@@ -182,7 +188,9 @@
     "engine": "conciliacion",
     "promotions": [
       13,
-      29
+      29,
+      34,
+      35
     ]
   },
   {
@@ -197,7 +205,8 @@
     "engine": "normativa",
     "promotions": [
       14,
-      31
+      31,
+      36
     ]
   },
   {
@@ -228,7 +237,9 @@
     "promotions": [
       4,
       21,
-      25
+      25,
+      38,
+      39
     ]
   },
   {
@@ -329,7 +340,8 @@
     "promotions": [
       9,
       16,
-      26
+      26,
+      40
     ]
   },
   {
@@ -390,7 +402,8 @@
     "outputs": "Ruta de organización y expediente preparatorio",
     "engine": "actores",
     "promotions": [
-      23
+      23,
+      41
     ]
   },
   {
@@ -404,7 +417,8 @@
     "outputs": "Agenda y seguimiento de tareas",
     "engine": "documento",
     "promotions": [
-      20
+      20,
+      32
     ]
   }
 ]

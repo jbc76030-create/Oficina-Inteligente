@@ -1,4 +1,4 @@
-const CACHE='oficina-cuba-v3-20261010';
+const CACHE='oficina-cuba-v4-20261010';
 const CORE=['./','index.html','style.css','data.js','zip.js','motor.js','browser-office.js','app.js','workflows.js','ai.js','ai-worker.mjs','extractors.js','deliverables.js','manifest.webmanifest','icon.svg'];
 let testOffline=false;
 self.addEventListener('message',event=>{if(event.data?.type==='OFFLINE_TEST')testOffline=event.data.enabled===true;if(event.data?.type==='OFFLINE_TEST'||event.data?.type==='OFFLINE_STATE')event.ports[0]?.postMessage({testOffline,cache:CACHE})});

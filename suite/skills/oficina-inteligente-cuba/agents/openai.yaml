@@ -1,0 +1,4 @@
+interface:
+  display_name: "Oficina Inteligente Cuba"
+  short_description: "143 servicios empresariales, documentos y agentes"
+  default_prompt: "Usa $oficina-inteligente-cuba para tramitar este pedido con documentos, fuentes oficiales y un entregable verificable."

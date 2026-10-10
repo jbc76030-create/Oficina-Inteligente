@@ -1,0 +1,410 @@
+[
+  {
+    "id": 1,
+    "name": "Redacción y normalización documental",
+    "scope": "Cartas, comunicaciones, informes ejecutivos, solicitudes, memorandos, instructivos, manuales, procedimientos, políticas, reglamentos internos y formatos; corrección ortográfica, gramatical y de estructura.",
+    "agent": "documentos",
+    "short": "Documentos",
+    "inputs": "Objetivo, destinatario, hechos y tono",
+    "method": "Separar hechos de propuestas; organizar antecedentes, desarrollo, solicitud y anexos; revisar nombres y fechas.",
+    "outputs": "Documento editable y registro de fuentes",
+    "engine": "documento",
+    "promotions": [
+      5,
+      26,
+      31
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Revisión y análisis documental",
+    "scope": "Revisión de integridad, coherencia, consistencia, vigencia, anexos, firmas, referencias, importes, fechas y versiones; resumen, comparación de documentos y extracción estructurada de datos.",
+    "agent": "documentos",
+    "short": "Análisis documental",
+    "inputs": "Documento base, versión anterior y criterios",
+    "method": "Comparar contenido y versiones; identificar omisiones, contradicciones y referencias sin soporte; localizar cada hallazgo.",
+    "outputs": "Matriz de hallazgos y comparación",
+    "engine": "revision",
+    "promotions": [
+      12,
+      15,
+      27
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gestión documental interna",
+    "scope": "Diseño de expedientes digitales, clasificación de documentos privados del cliente, índices, codificación, control de versiones, control de vencimientos, reglas de archivo y trazabilidad. No comprende operar archivos públicos, bibliotecas o centros de información.",
+    "agent": "documentos",
+    "short": "Archivo privado",
+    "inputs": "Documentos, clasificación y responsables",
+    "method": "Definir expediente, taxonomía, nombre, versión, custodio, acceso y vencimiento; conservar originales y huellas.",
+    "outputs": "Índice de expediente y reglas de archivo",
+    "engine": "revision",
+    "promotions": [
+      5,
+      27,
+      30
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Control interno",
+    "scope": "Diagnóstico de controles, matrices de riesgos y controles, segregación de funciones, flujos de aprobación, listas de comprobación, evidencias y seguimiento de acciones correctivas.",
+    "agent": "riesgos",
+    "short": "Control interno",
+    "inputs": "Procesos, responsables, controles y evidencias",
+    "method": "Revisar ambiente, riesgos, actividades de control, información y supervisión; proponer segregación y evidencia por control.",
+    "outputs": "Matriz de controles y plan de medidas",
+    "engine": "riesgos",
+    "promotions": [
+      4,
+      12
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Gestión de capital humano",
+    "scope": "Organigramas, descripciones y perfiles de cargos, matrices de competencias, procedimientos de ingreso, altas, bajas y movimientos, asistencia, vacaciones, licencias, expedientes y comunicación interna.",
+    "agent": "rrhh",
+    "short": "Capital humano",
+    "inputs": "Plantilla, cargos, funciones y novedades",
+    "method": "Construir organigrama, perfiles y matriz de competencias; revisar expedientes, asistencia y responsabilidades del empleador.",
+    "outputs": "Organigrama, perfiles y controles auxiliares",
+    "engine": "rrhh",
+    "promotions": [
+      1,
+      16,
+      31
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Entrenamiento y desempeño",
+    "scope": "Planes de capacitación no formal, materiales, ejercicios, evaluaciones, competencias, evaluación del desempeño y planes de mejora. No se expiden títulos ni certificaciones oficiales.",
+    "agent": "rrhh",
+    "short": "Formación y desempeño",
+    "inputs": "Competencias, brechas, objetivos y público",
+    "method": "Diagnosticar necesidades; diseñar entrenamiento interno, ejercicios, evaluación y plan de mejora; evitar titulaciones oficiales.",
+    "outputs": "Plan de formación y evaluación",
+    "engine": "documento",
+    "promotions": [
+      16,
+      22
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Apoyo laboral y contractual",
+    "scope": "Borradores de contratos, reglamentos y documentos laborales, control auxiliar de obligaciones, expedientes y novedades, con validación del empleador y del profesional competente cuando corresponda; sin representación legal.",
+    "agent": "contratos",
+    "short": "Trabajo y contratos",
+    "inputs": "Partes, relación, condiciones y autorización",
+    "method": "Preparar borrador y checklist; vincular cláusulas con hechos y fuente vigente; elevar decisiones al empleador o profesional competente.",
+    "outputs": "Borrador y matriz de obligaciones",
+    "engine": "contrato",
+    "promotions": [
+      15,
+      31
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Seguridad y salud en el trabajo",
+    "scope": "Organización documental de riesgos, capacitación, medios, incidentes, mantenimiento y emergencias; matrices y planes preventivos. No incluye certificaciones médicas, mediciones técnicas ni inspecciones oficiales.",
+    "agent": "sst",
+    "short": "Seguridad y salud",
+    "inputs": "Puestos, peligros, incidentes y medidas",
+    "method": "Identificar peligros y controles documentales; valorar probabilidad e impacto; preparar capacitación y respuesta; derivar mediciones y diagnósticos técnicos.",
+    "outputs": "Matriz SST y plan preventivo",
+    "engine": "riesgos",
+    "promotions": [
+      7
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Análisis económico-financiero",
+    "scope": "Análisis de ingresos, gastos, liquidez, rentabilidad, punto de equilibrio, desviaciones, flujo de caja, escenarios y notas explicativas para revisión del contador o directivo responsable.",
+    "agent": "finanzas",
+    "short": "Economía y finanzas",
+    "inputs": "Ingresos, gastos, movimientos, período y moneda",
+    "method": "Validar estructura y totales; calcular flujos, márgenes y tendencias por moneda; documentar hipótesis y contrastar soportes.",
+    "outputs": "Análisis y escenarios verificables",
+    "engine": "finanzas",
+    "promotions": [
+      2,
+      3,
+      8,
+      28,
+      29
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Presupuestos y costos",
+    "scope": "Presupuestos operativos y financieros, fichas de costos, estructuras de precios, márgenes, control presupuestario y comparación entre plan, comprometido, ejecutado y saldo.",
+    "agent": "finanzas",
+    "short": "Presupuestos y costos",
+    "inputs": "Plan, ejecución, costos, cantidades y precio",
+    "method": "Separar costo fijo, variable y unitario; calcular margen y punto de equilibrio; comparar plan, comprometido, ejecutado y saldo.",
+    "outputs": "Modelo de costos y presupuesto",
+    "engine": "presupuesto",
+    "promotions": [
+      3,
+      28
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Factibilidad y proyectos",
+    "scope": "Modelos de negocio, estudios de factibilidad económica, proyectos de desarrollo, proyectos locales, objetivos, actividades, recursos, cronogramas, riesgos, sostenibilidad e indicadores.",
+    "agent": "proyectos",
+    "short": "Factibilidad",
+    "inputs": "Idea, mercado, recursos, inversión y escenarios",
+    "method": "Definir propuesta, demanda, capacidad y costos; construir escenarios de caja, riesgos, sostenibilidad y sensibilidad.",
+    "outputs": "Estudio de factibilidad y modelo",
+    "engine": "proyecto",
+    "promotions": [
+      6,
+      23
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Contabilidad auxiliar y cierres",
+    "scope": "Revisión asistida de información, detección de duplicados y descuadres, listas de cierre, conciliaciones y borradores de estados o notas, sin registrar, aprobar ni certificar operaciones contables.",
+    "agent": "contabilidad",
+    "short": "Contabilidad auxiliar",
+    "inputs": "Mayor, auxiliares, bancos, soportes y período",
+    "method": "Conciliar importes, referencias y fechas; separar duplicados potenciales; preparar papeles de trabajo y lista de cierre para el contador.",
+    "outputs": "Conciliación y papeles de cierre",
+    "engine": "conciliacion",
+    "promotions": [
+      13,
+      29
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tributos y seguridad social",
+    "scope": "Calendarios, matrices de obligaciones, controles auxiliares, preparación de información y conciliación documental para el contribuyente y su contador, sin representación ante la ONAT ni actuación como órgano de seguridad social.",
+    "agent": "tributos",
+    "short": "Tributos y aportes",
+    "inputs": "NIT, actor, actividad, período y obligaciones",
+    "method": "Verificar fuentes y régimen del contribuyente; preparar matriz de obligaciones y soportes; usar tasas y plazos solo con fuente específica.",
+    "outputs": "Calendario y conciliación fiscal auxiliar",
+    "engine": "normativa",
+    "promotions": [
+      14,
+      31
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Cumplimiento normativo",
+    "scope": "Vigilancia de fuentes oficiales, resúmenes explicativos, matriz de aplicabilidad, plan de implementación, preguntas frecuentes, actualización legislativa y mapa de obligación a evidencia; sin emitir dictámenes jurídicos reservados.",
+    "agent": "normativa",
+    "short": "Cumplimiento",
+    "inputs": "Actor, actividad, norma, hecho y fecha",
+    "method": "Leer norma oficial completa y modificaciones; diferenciar publicación y vigencia; determinar aplicabilidad y obligación, acción, evidencia, responsable y plazo.",
+    "outputs": "Matriz de aplicabilidad y plan",
+    "engine": "normativa",
+    "promotions": [
+      11,
+      22
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Riesgos empresariales",
+    "scope": "Identificación, valoración y tratamiento de riesgos estratégicos, financieros, operativos, tecnológicos, documentales, comerciales y de cumplimiento.",
+    "agent": "riesgos",
+    "short": "Riesgos",
+    "inputs": "Procesos, amenazas, vulnerabilidades y controles",
+    "method": "Identificar riesgo inherente y residual; asignar probabilidad e impacto; priorizar tratamiento y verificar evidencia de mitigación.",
+    "outputs": "Mapa de riesgos y plan de tratamiento",
+    "engine": "riesgos",
+    "promotions": [
+      4,
+      21,
+      25
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Indicadores y estadísticas",
+    "scope": "Diseño de fichas técnicas, captura y consolidación de datos del cliente, tableros, semáforos, tendencias, reportes estadísticos, calidad de datos y explicación de variaciones.",
+    "agent": "datos",
+    "short": "Indicadores",
+    "inputs": "Datos, unidad, frecuencia, meta y responsables",
+    "method": "Validar calidad y linaje; definir fórmula, fuente, unidad y meta; consolidar sin mezclar monedas; señalar denominadores nulos.",
+    "outputs": "Fichas de indicadores y tablero",
+    "engine": "datos",
+    "promotions": [
+      8,
+      21
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Proyectos y seguimiento físico-financiero",
+    "scope": "Control de hitos, avances, presupuesto, contratos, recursos, resultados, riesgos, informes periódicos, cierre y evaluación de proyectos, sin asumir la aprobación del proyecto.",
+    "agent": "proyectos",
+    "short": "Seguimiento de proyectos",
+    "inputs": "Hitos, fechas, avances, presupuesto y ejecución",
+    "method": "Comparar avance físico y financiero; calcular desviaciones por hito; asignar responsables, decisiones pendientes y evidencias de cierre.",
+    "outputs": "Informe físico-financiero y cronograma",
+    "engine": "proyecto",
+    "promotions": [
+      25
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Compras y proveedores",
+    "scope": "Solicitudes de compra, especificaciones, comparación de ofertas, expedientes documentales de proveedores, condiciones, garantías, entregas, reclamaciones y seguimiento; sin contratar ni decidir por el cliente.",
+    "agent": "operaciones",
+    "short": "Compras y proveedores",
+    "inputs": "Solicitud, especificación, ofertas y condiciones",
+    "method": "Homogeneizar unidad y moneda; comparar precio, entrega, garantía y criterios; organizar expediente y recomendar sin contratar por el cliente.",
+    "outputs": "Comparativo de ofertas y expediente",
+    "engine": "compras",
+    "promotions": [
+      17
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Inventarios, activos y mantenimiento",
+    "scope": "Análisis de inventarios, conteos físicos auxiliares, formatos de conteo, conciliaciones, activos, ubicación, custodios, mantenimiento y diferencias, bajo responsabilidad del titular de los bienes.",
+    "agent": "operaciones",
+    "short": "Inventarios y activos",
+    "inputs": "Existencias, movimientos, conteo, custodio y equipos",
+    "method": "Comparar libros y físico; valorar diferencias con costo documentado; revisar mínimo y reposición; programar mantenimiento por equipo.",
+    "outputs": "Control de existencias y mantenimiento",
+    "engine": "inventario",
+    "promotions": [
+      18
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Procesos operativos",
+    "scope": "Mapas de procesos, tiempos, esperas, retrabajos, errores, cuellos de botella, oportunidades de estandarización y automatización.",
+    "agent": "procesos",
+    "short": "Procesos",
+    "inputs": "Flujo, responsables, tiempos y errores",
+    "method": "Mapear entradas, actividad, salida y cliente; detectar esperas y retrabajos; diseñar mejora y evaluar antes/después con datos.",
+    "outputs": "Mapa de proceso y plan de mejora",
+    "engine": "documento",
+    "promotions": [
+      24
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Gestión comercial y clientes",
+    "scope": "Cartera, prospectos, propuestas comerciales, cotizaciones basadas en carga de trabajo, seguimiento, reclamaciones, encuestas y voz del cliente; sin intermediación financiera.",
+    "agent": "comercial",
+    "short": "Comercial y clientes",
+    "inputs": "Prospectos, propuestas, oportunidades y condiciones",
+    "method": "Organizar cartera y etapas; redactar propuesta y cotización; priorizar seguimiento y reclamaciones; enviar solo con instrucción expresa.",
+    "outputs": "Propuesta comercial y seguimiento",
+    "engine": "comercial",
+    "promotions": [
+      19
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Presentaciones y contenidos",
+    "scope": "Presentaciones profesionales, infografías, guiones, boletines internos, materiales de capacitación, audio o video resumen y adaptación multiformato de contenidos aprobados.",
+    "agent": "contenidos",
+    "short": "Comunicación",
+    "inputs": "Público, objetivo, formato, marca y contenido aprobado",
+    "method": "Organizar mensaje y llamada a la acción; adaptar a diapositivas, guiones y publicaciones; verificar hechos, derechos y datos de contacto.",
+    "outputs": "Contenido o guion multiformato",
+    "engine": "documento",
+    "promotions": [
+      9,
+      16,
+      26
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Asistentes internos y agentes",
+    "scope": "Asistentes de procedimientos, dirección, contabilidad auxiliar, contratación documental, vigilancia normativa y seguimiento de tareas, siempre con fuentes controladas, revisión humana y autorización del cliente.",
+    "agent": "automatizacion",
+    "short": "Asistentes internos",
+    "inputs": "Fuentes autorizadas, consultas, permisos y casos",
+    "method": "Diseñar rol, fuentes, herramientas, evaluación y escalado; tratar archivos como datos; responder con evidencia y registrar incertidumbres.",
+    "outputs": "Asistente configurado y casos de prueba",
+    "engine": "automatizacion",
+    "promotions": [
+      10,
+      30
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Automatización y Oficina Inteligente",
+    "scope": "Diseño e implantación de plantillas, flujos semiautomatizados, calendarios, formularios, tableros, repositorios internos, asistentes y controles en el entorno autorizado por el cliente.",
+    "agent": "automatizacion",
+    "short": "Automatización",
+    "inputs": "Tareas, entradas, reglas, herramientas y autorizaciones",
+    "method": "Definir disparador, pasos, excepciones y aprobación; automatizar cálculos y documentos; medir carga y mantener trazabilidad.",
+    "outputs": "Flujo, plantillas y procedimiento",
+    "engine": "automatizacion",
+    "promotions": [
+      10,
+      24,
+      30
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Diagnóstico e implantación",
+    "scope": "Diagnóstico integral, inventario de tareas repetitivas, pilotos de automatización, medición del tiempo ahorrado, implantación, transferencia y acompañamiento hasta la autonomía del cliente.",
+    "agent": "direccion",
+    "short": "Diagnóstico e implantación",
+    "inputs": "Objetivos, procesos, madurez y evidencias",
+    "method": "Evaluar áreas por evidencia; priorizar por impacto y esfuerzo; ejecutar piloto, medir resultados y transferir operación al cliente.",
+    "outputs": "Diagnóstico y hoja de ruta 30/60/90",
+    "engine": "diagnostico",
+    "promotions": [
+      21,
+      24,
+      30
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Acompañamiento de actores económicos",
+    "scope": "Apoyo organizativo, documental, económico y operativo para preparar proyectos, procedimientos, controles, presupuestos y documentación de nuevos actores económicos, sin sustituir constitución notarial, asesoría jurídica reservada ni autorización administrativa.",
+    "agent": "actores",
+    "short": "Nuevos actores económicos",
+    "inputs": "Tipo de actor, socios, actividad, municipio y proyecto",
+    "method": "Verificar clasificación y autorizaciones; preparar expediente, estructura, cargos, procesos, presupuesto, controles y plan de puesta en marcha.",
+    "outputs": "Ruta de organización y expediente preparatorio",
+    "engine": "actores",
+    "promotions": [
+      23
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Reuniones y acuerdos: apoyo permitido",
+    "scope": "Preparación de agendas, paquetes de información, preguntas, matrices de responsables, fechas, alertas y reportes de avance. No incluye redactar, llevar o transcribir actas, registros o documentos empresariales reservados.",
+    "agent": "direccion",
+    "short": "Reuniones y acuerdos",
+    "inputs": "Agenda, información aprobada, tareas y fechas",
+    "method": "Preparar agenda, paquete de información, matriz de responsables y alertas; excluir redacción, llevanza y transcripción de actas reservadas.",
+    "outputs": "Agenda y seguimiento de tareas",
+    "engine": "documento",
+    "promotions": [
+      20
+    ]
+  }
+]

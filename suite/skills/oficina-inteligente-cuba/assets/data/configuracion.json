@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "name": "Oficina Inteligente Cuba",
+  "representative": "MsC. Juan E. Badillo Castillo",
+  "whatsapp": "56955208",
+  "email": "jbcautonomo@gmail.com",
+  "timezone": "America/Havana",
+  "currency": "CUP",
+  "legal_checked": "2026-10-10",
+  "service_count": 144,
+  "core_services": 143,
+  "additional_services": 1
+}

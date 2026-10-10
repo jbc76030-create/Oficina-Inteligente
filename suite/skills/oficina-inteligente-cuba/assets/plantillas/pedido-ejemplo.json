@@ -1,0 +1,13 @@
+{
+  "company_id": "CLI-REEMPLAZAR",
+  "service_id": 53,
+  "title": "Modelo de costos",
+  "brief": "Evaluar precio y equilibrio",
+  "params": {
+    "costos_fijos": 10000,
+    "precio": 100,
+    "costo_variable": 60,
+    "unidades": 400,
+    "moneda": "CUP"
+  }
+}

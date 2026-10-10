@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('#offline-status');if(b){b.textContent='Consola local · Ollama';b.onclick=()=>alert('La consola funciona en este ordenador. Ollama y el modelo instalado permiten elaborar sin Internet. Consultar Gaceta, WhatsApp o ChatGPT requiere conexión.')}});
